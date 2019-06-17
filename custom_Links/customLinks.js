@@ -8,8 +8,10 @@ var preversion = "https://sourceforge.net/projects/natron/files/"
 
 // Git hub Main Repo Page Link
 var mainRepoLink = "https://github.com/NatronGitHub/Natron";
+
 // Community plugin links
 var communityplug = "https://github.com/NatronGitHub/natron-plugins";
+var communityscripting = "https://github.com/fabiof17/natron-python-scripting";
 
 
 // Social Links
@@ -102,6 +104,7 @@ document.getElementById("mainRepoLink").href= mainRepoLink;
 document.getElementById("communityplug").href = communityplug;
 document.getElementById("communityplug2").href = communityplug;
 document.getElementById("communityplug3").href = communityplug;
+document.getElementById("communityscript").href = communityscripting;
 
 // Social links established by ID
 document.getElementById("forumLink").href = forumLink;
