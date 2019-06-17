@@ -104,7 +104,8 @@ document.getElementById("mainRepoLink").href= mainRepoLink;
 document.getElementById("communityplug").href = communityplug;
 document.getElementById("communityplug2").href = communityplug;
 document.getElementById("communityplug3").href = communityplug;
-document.getElementById("communityscript").href = communityscripting;
+document.getElementById("communityscript1").href = communityscripting;
+document.getElementById("communityscript2").href = communityscripting;
 
 // Social links established by ID
 document.getElementById("forumLink").href = forumLink;
