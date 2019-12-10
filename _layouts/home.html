@@ -20,11 +20,13 @@ layout: default
 </p>
 
 <!-- list all features -->
-<p>
 {% for features in site.categories.features %}
+<p>
 <a href="{{site.url}}{{features.url}}" title="{{features.title}} - {{features.description}}"><img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" /></a>
-{% endfor %}
+<h3>{{features.title}}</h3>
+{{features.content}}
 </p>
+{% endfor %}
 
 <p>&nbsp;</p>
 
