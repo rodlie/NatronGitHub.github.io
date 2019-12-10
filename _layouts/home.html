@@ -21,6 +21,7 @@ layout: default
 </p>
 
 <!-- list all features -->
+<div class="clearfix">
 {% for features in site.categories.features %}
 <div class="featbox">
 <img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" />
@@ -28,6 +29,7 @@ layout: default
 {{features.content}}
 </div>
 {% endfor %}
+</div>
 
 <p>&nbsp;</p>
 
