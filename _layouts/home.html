@@ -24,7 +24,7 @@ layout: default
 <div class="clearfix">
 {% for features in site.categories.features %}
 <div class="featbox">
-<img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" />
+<a href="{{site.url}}{{features.url}}"><img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" /></a>
 <h3>{{features.title}}</h3>
 {{features.content}}
 </div>
