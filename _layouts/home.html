@@ -12,15 +12,8 @@ layout: default
 {% endfor %}
 </p>
 
-<!-- display feature page -->
-<h2>Features</h2>
-<p>
-{% for feature in site.categories.feature %}
-{{feature.content}}
-{% endfor %}
-</p>
-
 <!-- list all features -->
+<h2>Features</h2>
 <div class="clearfix">
 {% for features in site.categories.features reversed %}
 <div class="featbox">
