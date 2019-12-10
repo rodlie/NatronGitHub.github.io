@@ -12,12 +12,45 @@
     <![endif]-->
 
     <style>
-    .wrapper { width: auto; margin: auto; }
+        body {
+      padding:0; margin:0; background-color:/*333*/#282627; 
+      background-image: url('/images/logo-bg01.png');
+      background-repeat: no-repeat; background-attachment: fixed; background-position: top left;
+    }
+    .wrapper { max-width:1280px; margin:0; padding:0; margin-left:auto; margin-right:auto;}
+    /*header { background-color:green;}*/
+    section { width:auto; /*background-color:rgb(70, 69, 69);*/ margin-top: 70px;}
+    .wrapper2 {background-color: rgba(0, 0, 0, 0.596); position: fixed !important; width:100%;}
+    .wrapper2 img {margin-left: 10px;}
+    h1, h2, h3, h4, span, p, li, strong, small { color: #949496; }
+    a, a:link, a:visited, a:hover, a:active { color: #8d8d8e; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+    code { color: #ababab; }
+    h2 { margin-bottom: 5px; }
+    section { border: none; }
+    .menu { list-style-type: none; margin: 0; margin-left: 10px; padding: 0; overflow: hidden; float: right; }
+    .menu li { float: left; }
+    .menu li a { display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-weight: normal; }
+    .menu li a:hover { background-color: #111; }
+    .menu li .active { background-color: red; }
     </style>
   </head>
   <body>
+    <div class="wrapper2">
+      <img src="{{site.logo | relative_url}}" alt="Logo" width="48" height="48">
+      <ul class="menu"> <!-- TEMP MENU -->
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Downloads</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Plug-ins</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+    </div>
     <div class="wrapper">
-      <header>        
+      <!-- <header>        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -31,7 +64,7 @@
           <li><a href="{{ site.linux_url }}">Download for <strong>Linux</strong></a></li>
         </ul>
         {% endif %}
-      </header>
+      </header> -->
       <section>
 
       {{ content }}
