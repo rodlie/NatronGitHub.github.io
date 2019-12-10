@@ -1,0 +1,12 @@
+---
+layout: default
+title: "OpenColorIO"
+description: "Color management solution geared towards motion picture production with an emphasis on visual effects and computer animation."
+permalink : "/ocio"
+categories: features
+---
+
+# OpenColorIO (OCIO)
+
+OpenColorIO (OCIO) is a complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation. OCIO provides a straightforward and consistent user experience across all supporting applications while allowing for sophisticated back-end configuration options suitable for high-end production usage. OCIO is compatible with the Academy Color Encoding Specification (ACES) and is LUT-format agnostic, supporting many popular formats.
+
