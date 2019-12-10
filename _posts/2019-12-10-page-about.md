@@ -2,6 +2,7 @@
 layout: default
 title: "About"
 permalink: /about
+categories: about
 ---
 
 ### CROSS PLATFORM & OPEN-SOURCE COMPOSITOR FOR VISUAL EFFECTS AND MOTION GRAPHICS INDUSTRY
