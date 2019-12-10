@@ -7,7 +7,7 @@ layout: default
 <!-- display about page -->
 <p>
 {% for about in site.categories.about %}
-<img style="float:right;" src="{{site.url}}/images/{{about.image}}" />
+<img style="float:right;width:35%;height:35%;" src="{{site.url}}/images/{{about.image}}" />
 {{about.content}}
 {% endfor %}
 </p>
