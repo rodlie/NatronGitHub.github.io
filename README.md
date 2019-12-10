@@ -1,3 +1,1 @@
-# Natron WWW WIP
-
-Under constructions ... ;)
+# Open Source Compositing Software For VFX and Motion Graphics
