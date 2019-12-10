@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+title: Natron
+name: Natron
+author: Natron
+description: Open Source Compositing Software For VFX and Motion Graphics
+url: https://rodlie.github.io/NatronGitHub.github.io
+logo: https://raw.githubusercontent.com/NatronGitHub/Natron/RB-2.3/Gui/Resources/Images/natronIcon256_linux.png
+show_downloads: true
