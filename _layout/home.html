@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>{{site.title}}</h1>
+<p>{{site.description}}. <a href="{{site.url}}/about">Read more</a>.</p>
+
+<p>
+{% for features in site.categories.features %}
+<a href="{{site.url}}{{features.url}}" title="{{features.title}} - {{features.description}}"><img src="{{site.url}}/images/{{features.thumb}}" style="width:220px;height:auto;" alt="{{features.title}}" /></a>
+{% endfor %}
+</p>
+
+<p>&nbsp;</p>
+
+{% for post in site.categories.news limit:10 %}
+<h2><a href="{{site.url}}{{post.url}}" >{{ post.title }}</a></h2>
+<small>{{ post.date | date: "%-d %B %Y" }}</small>
+<!-- <p class="view">by {{ post.author | default: site.author }}</p> -->
+<!-- <p><a href="{{site.url}}{{post.url}}"><img src="{{site.url}}/images/{{post.image}}" style="width:500px;height:auto;" alt="{{post.title}}" /></a></p> -->
+<p>{{post.description}}. <a href="{{site.url}}{{post.url}}" >Read more</a>.</p>
+{% endfor %}
