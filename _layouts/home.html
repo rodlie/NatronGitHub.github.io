@@ -5,13 +5,21 @@ layout: default
 <h1>{{site.title}}</h1>
 <p>{{site.description}}.</p>
 
-<!-- add image here : about.thumb -->
+<!-- display about page -->
 <p>
 {% for about in site.categories.about %}
 {{about.content}}
 {% endfor %}
 </p>
 
+<!-- display feature page -->
+<p>
+{% for feature in site.categories.feature %}
+{{feature.content}}
+{% endfor %}
+</p>
+
+<!-- list all features -->
 <p>
 {% for features in site.categories.features %}
 <a href="{{site.url}}{{features.url}}" title="{{features.title}} - {{features.description}}"><img src="{{site.url}}/images/{{features.thumb}}" style="width:220px;height:auto;" alt="{{features.title}}" /></a>
@@ -19,6 +27,8 @@ layout: default
 </p>
 
 <p>&nbsp;</p>
+
+<!-- list latest news -->
 
 {% for post in site.categories.news limit:10 %}
 <h2><a href="{{site.url}}{{post.url}}" >{{ post.title }}</a></h2>
