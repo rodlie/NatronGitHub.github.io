@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "About"
+image: "about_imgMonitor.png"
 permalink: /about
 categories: about
 ---

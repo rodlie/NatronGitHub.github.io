@@ -7,6 +7,7 @@ layout: default
 <!-- display about page -->
 <p>
 {% for about in site.categories.about %}
+<img style="float:right;" src="{{site.url}}/images/{{about.image}}" />
 {{about.content}}
 {% endfor %}
 </p>
@@ -19,6 +20,7 @@ layout: default
 </p>
 
 <!-- list all features -->
+<h2>Features</h2>
 {% for features in site.categories.features %}
 <div class="featbox">
 <img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" />
@@ -30,7 +32,7 @@ layout: default
 <p>&nbsp;</p>
 
 <!-- list latest news -->
-
+<h2>News</h2>
 {% for post in site.categories.news limit:10 %}
 <h2><a href="{{site.url}}{{post.url}}" >{{ post.title }}</a></h2>
 <small>{{ post.date | date: "%-d %B %Y" }}</small>
