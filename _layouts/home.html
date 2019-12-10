@@ -7,12 +7,13 @@ layout: default
 <!-- display about page -->
 <p>
 {% for about in site.categories.about %}
-<img style="float:right;width:35%;height:35%;" src="{{site.url}}/images/{{about.image}}" />
+<img style="float:right;width:35%;height:35%;padding-left:5px;" src="{{site.url}}/images/{{about.image}}" />
 {{about.content}}
 {% endfor %}
 </p>
 
 <!-- display feature page -->
+<h2>Features</h2>
 <p>
 {% for feature in site.categories.feature %}
 {{feature.content}}
@@ -20,7 +21,6 @@ layout: default
 </p>
 
 <!-- list all features -->
-<h2>Features</h2>
 {% for features in site.categories.features %}
 <div class="featbox">
 <img src="{{site.url}}/images/{{features.image}}" style="width:220px;height:auto;" alt="{{features.title}}" />
