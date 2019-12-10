@@ -19,6 +19,7 @@
     }
     .wrapper { max-width:1280px; margin:0; padding:0; margin-left:auto; margin-right:auto;}
     .featbox { float:left; width: 220px; padding: 15px; height: 300px; background-color: rgba(255, 255, 255, 0.05); border-radius: 10%; margin:15px;}
+    .featbox2 { float:left; width: 220px; padding: 15px; height: 350px; background-color: rgba(255, 255, 255, 0.05); border-radius: 10%; margin:15px;}
     .featbox img { border-radius: 10%; }
     .clearfix::after { content: ""; clear: both; display: table; }
     section { width:auto; /*background-color:rgb(70, 69, 69);*/ margin-top: 70px;}
@@ -52,21 +53,6 @@
       </ul>
     </div>
     <div class="wrapper">
-      <!-- <header>        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.windows_url }}">Download for <strong>Windows</strong></a></li>
-          <li><a href="{{ site.macos_url }}">Download for <strong>macOS</strong></a></li>
-          <li><a href="{{ site.linux_url }}">Download for <strong>Linux</strong></a></li>
-        </ul>
-        {% endif %}
-      </header> -->
       <section>
 
       {{ content }}
