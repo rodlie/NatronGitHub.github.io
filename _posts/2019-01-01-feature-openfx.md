@@ -2,7 +2,7 @@
 layout: default
 title: "OpenFX (OFX)"
 image: "OFX_Thumb.jpeg"
-description: "Natron supports OpenFX (OFX), the VFX industry standard for plug-in."
+description: "Natron supports OpenFX (OFX), the VFX industry standard for plug-ins."
 permalink : "/openfx"
 categories: features
 ---
@@ -13,4 +13,3 @@ OpenFX (OFX), a.k.a. [The OFX Image Effect Plug-in API](http://openfx.sourceforg
 
 Natron is part of ``Member Companies`` at [The Open Effects Association (OFX)](http://openeffects.org/), a non-profit organization, develops and promotes open standards across the visual effects community.
 
-The Association’s initial focus is to improve the OpenFX image processing plug-in standard. This goal of this standard is to reduce development effort and support needed for plug-ins across different compositing and editing host platforms.
