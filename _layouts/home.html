@@ -24,24 +24,21 @@ layout: default
 {% endfor %}
 </div>
 
-<p>&nbsp;</p>
-
 <!-- list latest news -->
 <h2>News</h2>
 <div class="clearfix">
 {% for post in site.categories.news limit:10 %}
 <div class="featbox2">
-<h2><a href="{{site.url}}{{post.url}}" >{{ post.title }}</a></h2>
-<small>{{ post.date | date: "%-d %B %Y" }}</small>
-<!-- <p class="view">by {{ post.author | default: site.author }}</p> -->
-<p><a href="{{site.url}}{{post.url}}">
+<a href="{{site.url}}{{post.url}}">
 {% if post.image %}
 <img src="{{site.url}}/images/{{post.image}}" style="width:200px;height:auto;" alt="{{post.title}}" />
 {% else %}
 <img src="{{site.url}}/images/placeholder.png" style="width:200px;height:auto;" alt="{{post.title}}" />
 {% endif %}
-</a></p>
-<p>{{post.description}}. <a href="{{site.url}}{{post.url}}" >Read more</a>.</p>
+</a>
+<h3><a href="{{site.url}}{{post.url}}" >{{ post.title }}</a></h3>
+<small>{{ post.date | date: "%-d %B %Y" }}</small>
+{{post.description}}
 </div>
 {% endfor %}
 </div>
