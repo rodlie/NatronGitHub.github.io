@@ -85,7 +85,9 @@ document.getElementById("preversion").href= preversion; //previous version
 
 //Mac downloads start//
     document.getElementById("macDld").href= macDld;
-    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ " dmg&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ " for OS X/macOS 10.9+ dmg (64-bit)&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macUniversalDld").href= macDld;
+    document.getElementById("macUniversalDld").innerHTML= "Download Natron "+versionnum+ " for OS X/macOS 10.6+ dmg (32/64-bit)&nbsp"+'<i class="fa fa-apple"></i>';
 //Mac downloads end//
 
 //Linux downloads start//
