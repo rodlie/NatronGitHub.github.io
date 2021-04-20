@@ -32,10 +32,10 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
     var chnglognum = "https://github.com/NatronGitHub/Natron/blob/v"+versionnum+"/CHANGELOG.md"
     // Windows Downlaod Variables Start
         //var winDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
-        var winDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64.exe"
+        var winDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64.zip"
         //var winOnlineDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe"
         //var winPortableDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
-        var winPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64-no-installer.zip"
+        //var winPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64-no-installer.zip"
     
     // Windows Download Variables end
 
@@ -78,9 +78,9 @@ document.getElementById("preversion").href= preversion; //previous version
 
 //windows downloads start//
     document.getElementById("winDld").href= winDld;
-    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ " installer&nbsp;"+'<i class="fa fa-windows"></i>';
+    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ " for Windows 8.1/10 (64-bit)&nbsp;"+'<i class="fa fa-windows"></i>';
     //document.getElementById("winOnlineDld").href= winOnlineDld;
-    document.getElementById("winPortableDld").href= winPortableDld;
+    //document.getElementById("winPortableDld").href= winPortableDld;
 //windows downloads end//
 
 //Mac downloads start//
