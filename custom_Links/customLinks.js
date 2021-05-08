@@ -41,7 +41,7 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
 
     // Mac Downlaod Variables start
         //var macDld = "https://downloads.natron.fr/Mac/releases/Natron-"+versionnum+".dmg"
-        var macCatalinaDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-macOS1015-64.dmg"
+        var macCatalinaDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-macOS1015.dmg"
         var macDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-OSX-64.dmg"
         var macUniversalDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-OSX-Universal.dmg"
     // Mac Downlaod Variables end
