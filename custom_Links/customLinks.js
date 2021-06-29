@@ -11,7 +11,7 @@ var mainRepoLink = "https://github.com/NatronGitHub/Natron";
 
 // Community plugin links
 var communityplug = "https://github.com/NatronGitHub/natron-plugins";
-var communityscripting = "https://github.com/fabiof17/natron-python-scripting";
+var communityscripting = "https://github.com/NatronGitHub/natron-python-scripting";
 
 
 // Social Links
