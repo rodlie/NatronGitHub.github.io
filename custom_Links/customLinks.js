@@ -2,6 +2,7 @@
 /* version number: changing this number
 will update all version centric variables */
 var versionnum = "2.4.0"
+var versiondate = "2021-04-20"
 
 //previous version link
 var preversion = "https://sourceforge.net/projects/natron/files/"
@@ -70,7 +71,7 @@ or create new varaibles like above. For example see: "communityplug" ID below
 
 //version formatting
 
-document.getElementById("versionnum").innerHTML= "Current Version "+versionnum+"&nbsp";
+document.getElementById("versionnum").innerHTML= "Current Version "+versionnum+" (" +versiondate+ ")&nbsp";
 
 // version centric links establised by ID
 
